@@ -19,6 +19,7 @@ type CreatePostInput struct {
 	Title   string `json:"title"`
 	Content string `json:"content"`
 	Slug    string `json:"slug"`
+	Author  string `json:"author"`
 }
 
 // UpdatePostInput is used when updating a post
